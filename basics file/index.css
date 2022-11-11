@@ -1,0 +1,100 @@
+*{margin: 0px;padding: 0px;}
+#box{
+    border: 1px dashed red;
+    width: 300px;
+    border-radius: 8px;
+}
+#box ul li{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+#box ul li a{
+    text-decoration: none;
+    color: white;
+}
+table,th,td{border: 1px solid red;}
+table{border-collapse: collapse;}
+table caption{
+    border: 1px solid red;
+    border-bottom: 0px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+table th,td{
+    width: 80px;
+    height: 30px;
+}
+/* css选择器 */
+#tool {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 8px;
+}
+#tool li+li{
+    border-top: 1px solid black;
+}
+#tool li a{
+    text-decoration: none;
+    color: black;
+    /* 斜体 */
+    font-style: italic;
+    /* 大小写 */
+    text-transform: uppercase;
+}
+#tool li a:hover{color: red;}
+/* 首行缩进 */
+#sujin{
+    text-indent: 28px;
+    line-height: 25px;
+    /* 字间距 */
+    letter-spacing: 5px;
+
+    border: 1px solid palevioletred;
+    width: 300px;
+    height: 60px;
+    /* 词间距 */
+    word-spacing: 10px;
+    
+}
+/* 图片 */
+#meidusha,#meidusha img{
+    width: 350px;
+    height: 200px;
+}
+#mei,#mei img{
+    width: 350px;
+    height: 200px;
+}
+#mei,#meidusha{
+    float: left;
+    margin-left: 20px;
+}
+/* 定义清除浮动类 */
+.clearfix::after{  
+    content:'';
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+#boxs{
+    margin-top: 10px;
+    background-color: darkcyan;
+    border: 1px solid red;
+    width: 900px;
+}
+#san{
+    width: 30px;
+    height: 30px;
+    border: 1px dashed red;
+    clear: both;
+}
+/* 清除浮动结束 */

@@ -1,0 +1,17 @@
+#user{
+    width: 300px;
+    border: 1px solid black;
+}
+input{
+    outline: none;
+}
+#ti{
+    width: 50px;
+    outline: none;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    margin-left: 10px;
+}
